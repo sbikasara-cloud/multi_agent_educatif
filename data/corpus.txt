@@ -1,0 +1,89 @@
+LES LIMITES D’UNE FONCTION
+
+1. Définition
+La limite d’une fonction permet d’étudier son comportement quand x se rapproche d’une valeur ou de l’infini.
+On note lim f(x) quand x tend vers a.
+Si les valeurs de f(x) se rapprochent d’un nombre L, on dit que la limite est L.
+
+2. Limite en un point
+On étudie la limite de f(x) quand x tend vers a.
+Si la fonction est définie en a et que la limite existe, elle peut être calculée par remplacement direct.
+Si on obtient une forme indéterminée, il faut transformer l’expression.
+
+3. Limites à gauche et à droite
+On peut étudier la limite quand x tend vers a par la gauche et par la droite.
+Si les deux limites sont égales, la limite en a existe.
+
+4. Limites infinies
+La limite peut être infinie.
+Cela signifie que la fonction grandit sans borne ou décroît sans borne.
+Une limite infinie peut conduire à une asymptote verticale.
+
+5. Limites en +∞ et -∞
+On étudie le comportement de la fonction quand x devient très grand ou très petit.
+Pour une fonction polynomiale, le terme de plus haut degré est le plus important.
+Pour une fonction rationnelle, on compare les degrés du numérateur et du dénominateur.
+
+6. Fonctions rationnelles
+Si le degré du numérateur est inférieur à celui du dénominateur, la limite en +∞ est 0.
+Si les degrés sont égaux, la limite est le quotient des coefficients dominants.
+Si le degré du numérateur est supérieur à celui du dénominateur, la limite est infinie ou n’existe pas selon le signe.
+
+7. Opérations sur les limites
+La limite d’une somme est la somme des limites si les limites existent.
+La limite d’un produit est le produit des limites si les limites existent.
+La limite d’un quotient est le quotient des limites si le dénominateur ne tend pas vers 0.
+Certaines opérations peuvent produire une forme indéterminée.
+
+8. Formes indéterminées
+Les formes indéterminées classiques sont :
+0/0, ∞/∞, 0×∞, ∞−∞, 0^0, 1^∞ et ∞^0.
+Quand on trouve une forme indéterminée, on ne peut pas conclure directement.
+
+9. Méthodes pour lever une forme indéterminée
+On peut utiliser :
+la factorisation,
+la simplification,
+la rationalisation,
+la mise en facteur du terme dominant,
+la division par la plus grande puissance de x,
+ou une transformation algébrique.
+
+10. Limites remarquables
+lim sin(x)/x = 1 quand x tend vers 0.
+lim tan(x)/x = 1 quand x tend vers 0.
+lim (1 - cos(x))/x² = 1/2 quand x tend vers 0.
+lim ln(1 + x)/x = 1 quand x tend vers 0.
+lim (e^x - 1)/x = 1 quand x tend vers 0.
+
+11. Continuité
+Une fonction est continue en a si sa limite en a existe et est égale à f(a).
+La continuité facilite l’étude des fonctions.
+
+12. Asymptotes
+Si la fonction tend vers +∞ ou -∞ près d’une valeur a, il peut y avoir une asymptote verticale.
+Si la fonction admet une limite finie en +∞ ou -∞, il peut y avoir une asymptote horizontale.
+
+13. Exemple 1
+lim (x² - 1)/(x - 1) quand x tend vers 1.
+On obtient 0/0.
+On factorise : x² - 1 = (x - 1)(x + 1).
+La fraction devient x + 1.
+La limite vaut 2.
+
+14. Exemple 2
+lim (2x² + 3x - 1)/(x² - 4) quand x tend vers +∞.
+On compare les termes dominants.
+La limite vaut 2.
+
+15. Exemple 3
+lim (3x + 1)/(x² + 1) quand x tend vers +∞.
+Le degré du dénominateur est plus grand.
+La limite vaut 0.
+
+16. Résumé
+Pour calculer une limite, il faut :
+remplacer si possible,
+détecter une forme indéterminée,
+transformer l’expression,
+puis conclure.

@@ -1,0 +1,16 @@
+14. Exemple 2
+lim (2xÂ² + 3x - 1)/(xÂ² - 4) quand x tend vers +âˆ.
+On compare les termes dominants.
+La limite vaut 2.
+
+15. Exemple 3
+lim (3x + 1)/(xÂ² + 1) quand x tend vers +âˆ.
+Le degrÃ© du dÃ©nominateur est plus grand.
+La limite vaut 0.
+
+16. RÃ©sumÃ©
+Pour calculer une limite, il faut :
+remplacer si possible,
+dÃ©tecter une forme indÃ©terminÃ©e,
+transformer lâ€™expression,
+puis conclure.ÿÿÿÿÿÿÿ
