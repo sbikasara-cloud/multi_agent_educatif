@@ -1,86 +1,80 @@
-LES LIMITES D’UNE FONCTION
+LES LIMITES D'UNE FONCTION
 
-1. Définition
-La limite d’une fonction permet d’étudier son comportement quand x se rapproche d’une valeur ou de l’infini.
-On note lim f(x) quand x tend vers a.
-Si les valeurs de f(x) se rapprochent d’un nombre L, on dit que la limite est L.
+1. Définition de la limite
+La limite d'une fonction f en un point a, c'est la valeur vers laquelle f(x) se rapproche quand x tend vers a.
+On écrit lim f(x) = l quand x tend vers a, et cette limite est unique si elle existe.
 
-2. Limite en un point
-On étudie la limite de f(x) quand x tend vers a.
-Si la fonction est définie en a et que la limite existe, elle peut être calculée par remplacement direct.
-Si on obtient une forme indéterminée, il faut transformer l’expression.
+2. Formes indéterminées
+Les formes indéterminées sont : 0/0, ±∞/±∞, +∞−∞ et 0×±∞.
+Quand on obtient une forme indéterminée, on ne peut pas conclure directement.
+On lève la forme indéterminée par factorisation, rationalisation ou division euclidienne.
 
-3. Limites à gauche et à droite
-On peut étudier la limite quand x tend vers a par la gauche et par la droite.
-Si les deux limites sont égales, la limite en a existe.
+3. Exemple - Forme 0/0 avec racine
+lim (sqrt(x+1) - 2) / (x - 3) quand x tend vers 3 donne 0/0.
+On multiplie par le conjugué (sqrt(x+1) + 2) pour simplifier.
+La limite vaut 1/4.
 
-4. Limites infinies
-La limite peut être infinie.
-Cela signifie que la fonction grandit sans borne ou décroît sans borne.
-Une limite infinie peut conduire à une asymptote verticale.
+4. Exemple - Forme 0/0 par division euclidienne
+lim (2x³ + 2x² + x + 1) / (x² + 3x + 2) quand x tend vers -1 donne 0/0.
+On factorise par (x+1) au numérateur et au dénominateur.
+La limite vaut 3.
 
-5. Limites en +∞ et -∞
-On étudie le comportement de la fonction quand x devient très grand ou très petit.
-Pour une fonction polynomiale, le terme de plus haut degré est le plus important.
-Pour une fonction rationnelle, on compare les degrés du numérateur et du dénominateur.
+5. Limites infinies en un point
+Si f(x) devient très grand ou très petit quand x tend vers a, la limite est +∞ ou -∞.
+On admet : lim 1/x = +∞ quand x tend vers 0 par la droite, et -∞ par la gauche.
+Pour 1/x^n : si n est pair la limite vaut +∞ des deux côtés, si n est impair elle change de signe.
 
-6. Fonctions rationnelles
-Si le degré du numérateur est inférieur à celui du dénominateur, la limite en +∞ est 0.
-Si les degrés sont égaux, la limite est le quotient des coefficients dominants.
-Si le degré du numérateur est supérieur à celui du dénominateur, la limite est infinie ou n’existe pas selon le signe.
+6. Limites à droite et à gauche
+La limite à droite en a est la limite quand x tend vers a avec x > a.
+La limite à gauche en a est la limite quand x tend vers a avec x < a.
+Si les deux limites sont égales à l, alors lim f(x) = l en a. Sinon, la limite n'existe pas.
 
-7. Opérations sur les limites
-La limite d’une somme est la somme des limites si les limites existent.
-La limite d’un produit est le produit des limites si les limites existent.
-La limite d’un quotient est le quotient des limites si le dénominateur ne tend pas vers 0.
-Certaines opérations peuvent produire une forme indéterminée.
+7. Limites en +∞ et -∞ - Puissances
+Pour tout n entier naturel non nul : lim x^n = +∞ quand x tend vers +∞.
+Quand x tend vers -∞ : lim x^n = +∞ si n est pair, et -∞ si n est impair.
+Pour k*x^n : le signe de la limite dépend du signe de k et de la parité de n.
 
-8. Formes indéterminées
-Les formes indéterminées classiques sont :
-0/0, ∞/∞, 0×∞, ∞−∞, 0^0, 1^∞ et ∞^0.
-Quand on trouve une forme indéterminée, on ne peut pas conclure directement.
+8. Limites de k/x^n en +∞ et -∞
+Pour k réel non nul et n entier naturel non nul :
+lim k/x^n = 0 quand x tend vers +∞ ou -∞.
 
-9. Méthodes pour lever une forme indéterminée
-On peut utiliser :
-la factorisation,
-la simplification,
-la rationalisation,
-la mise en facteur du terme dominant,
-la division par la plus grande puissance de x,
-ou une transformation algébrique.
+9. Limites des polynômes et fonctions rationnelles
+La limite d'un polynôme en +∞ ou -∞ est donnée par son terme de plus haut degré.
+Pour une fonction rationnelle P(x)/Q(x), la limite est donnée par le rapport des termes dominants.
+Exemple : lim (2x² + 5) / (4x²) = 1/2 quand x tend vers +∞.
 
-10. Limites remarquables
-lim sin(x)/x = 1 quand x tend vers 0.
-lim tan(x)/x = 1 quand x tend vers 0.
-lim (1 - cos(x))/x² = 1/2 quand x tend vers 0.
-lim ln(1 + x)/x = 1 quand x tend vers 0.
-lim (e^x - 1)/x = 1 quand x tend vers 0.
+10. Limite d'une racine carrée
+Si lim f(x) = l avec l >= 0, alors lim sqrt(f(x)) = sqrt(l).
+Si lim f(x) = +∞, alors lim sqrt(f(x)) = +∞.
+Cette règle est valable en +∞, -∞, ou en un point a.
 
+11. Opérations sur les limites
+La limite d'une somme est la somme des limites si elles existent.
+La limite d'un produit est le produit des limites.
+La limite d'un quotient est le quotient des limites si le dénominateur ne tend pas vers 0.
+Certaines combinaisons donnent une forme indéterminée notée F.I.
 
-11. Asymptotes
-Si la fonction tend vers +∞ ou -∞ près d’une valeur a, il peut y avoir une asymptote verticale.
-Si la fonction admet une limite finie en +∞ ou -∞, il peut y avoir une asymptote horizontale.
+12. Limites trigonométriques en un point
+lim sin(x) = sin(a), lim cos(x) = cos(a) et lim tan(x) = tan(a) quand x tend vers a.
+tan(x) n'est pas définie pour x = pi/2 + k*pi.
+Les fonctions sin, cos et tan n'ont pas de limite en +∞ ou -∞.
 
-12. Exemple 1
-lim (x² - 1)/(x - 1) quand x tend vers 1.
-On obtient 0/0.
-On factorise : x² - 1 = (x - 1)(x + 1).
-La fraction devient x + 1.
-La limite vaut 2.
+13. Limites trigonométriques remarquables
+Pour tout réel a non nul :
+lim sin(ax) / (ax) = 1 quand x tend vers 0.
+lim (1 - cos(ax)) / (ax)² = 1/2 quand x tend vers 0.
 
-13. Exemple 2
-lim (2x² + 3x - 1)/(x² - 4) quand x tend vers +∞.
-On compare les termes dominants.
-La limite vaut 2.
+14. Exemple - Limite trigonométrique
+lim sin(5x) / x quand x tend vers 0.
+On écrit sin(5x)/x = 5 * sin(5x)/(5x).
+Comme lim sin(5x)/(5x) = 1, la limite vaut 5.
 
-16. Exemple 3
-lim (3x + 1)/(x² + 1) quand x tend vers +∞.
-Le degré du dénominateur est plus grand.
-La limite vaut 0.
+15. Théorèmes de comparaison et d'encadrement
+Si g(x) <= f(x) et lim g(x) = +∞, alors lim f(x) = +∞.
+Si g(x) <= f(x) <= h(x) et lim g(x) = lim h(x) = l, alors lim f(x) = l.
+Si |f(x) - l| <= g(x) et lim g(x) = 0, alors lim f(x) = l.
 
-17. Résumé
-Pour calculer une limite, il faut :
-remplacer si possible,
-détecter une forme indéterminée,
-transformer l’expression,
-puis conclure.
+16. Résumé
+Pour calculer une limite, on remplace d'abord directement si possible.
+Si on obtient une forme indéterminée, on transforme l'expression par factorisation, rationalisation ou mise en facteur du terme dominant.
+Pour les limites trigonométriques, on utilise les limites remarquables sin(ax)/(ax) = 1 et (1-cos(ax))/(ax)² = 1/2.
