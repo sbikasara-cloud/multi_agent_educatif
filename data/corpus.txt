@@ -56,32 +56,29 @@ lim (1 - cos(x))/x² = 1/2 quand x tend vers 0.
 lim ln(1 + x)/x = 1 quand x tend vers 0.
 lim (e^x - 1)/x = 1 quand x tend vers 0.
 
-11. Continuité
-Une fonction est continue en a si sa limite en a existe et est égale à f(a).
-La continuité facilite l’étude des fonctions.
 
-12. Asymptotes
+11. Asymptotes
 Si la fonction tend vers +∞ ou -∞ près d’une valeur a, il peut y avoir une asymptote verticale.
 Si la fonction admet une limite finie en +∞ ou -∞, il peut y avoir une asymptote horizontale.
 
-13. Exemple 1
+12. Exemple 1
 lim (x² - 1)/(x - 1) quand x tend vers 1.
 On obtient 0/0.
 On factorise : x² - 1 = (x - 1)(x + 1).
 La fraction devient x + 1.
 La limite vaut 2.
 
-14. Exemple 2
+13. Exemple 2
 lim (2x² + 3x - 1)/(x² - 4) quand x tend vers +∞.
 On compare les termes dominants.
 La limite vaut 2.
 
-15. Exemple 3
+16. Exemple 3
 lim (3x + 1)/(x² + 1) quand x tend vers +∞.
 Le degré du dénominateur est plus grand.
 La limite vaut 0.
 
-16. Résumé
+17. Résumé
 Pour calculer une limite, il faut :
 remplacer si possible,
 détecter une forme indéterminée,
